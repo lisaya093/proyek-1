@@ -1,0 +1,62 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ddbf63, #a48117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Tampilan kartu */
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efek saat kursor diarahkan ke kartu */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Gaya gambar profil */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius:0%;
+    object-fit: cover;
+    border: 3px solid #a8790a9e;
+    margin-bottom: 10px;
+}
+
+/* Gaya teks */
+h1 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+h3 {
+    color: #bc9534;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Link */
+a {
+    text-decoration:none;
+    color: #aa7e11;
+}
+
+a:hover {
+    text-decoration: underline;
+}
